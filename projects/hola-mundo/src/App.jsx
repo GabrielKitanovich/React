@@ -5,8 +5,15 @@ import { TwitterFollowCard } from './TwitterFollowCard';
 export function App() {
     return (
         <>
-        <TwitterFollowCard name='Cristina' userName='kikobeats' />
-        
+            <TwitterFollowCard userName="kikobeats">
+                Cristina
+            </TwitterFollowCard>
+            <TwitterFollowCard  userName="johndoe">
+                John Doe
+            </TwitterFollowCard>
+            <TwitterFollowCard >
+                Jane Smith
+            </TwitterFollowCard>
         </>
     );
 }
